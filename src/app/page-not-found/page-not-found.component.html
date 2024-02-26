@@ -1,0 +1,15 @@
+<!-- page-not-found.component.html -->
+<div style="padding-top: 40px;"></div>
+<br/><a routerLink="/home">Go to Home Page using <b>Absolute path "/home"</b></a>
+<br/><a routerLink="./home">Go to Home Page using <b>Relative path "./home"</b></a>
+<br/><a routerLink="home">Go to Home Page using <b>Relative path "home"</b></a>
+<br/><a routerLink="../../home">Go to Home Page using <b>Relative path "../../home"</b></a>
+
+
+<div class="container">
+  <div class="not-found">
+    <h1>404 Error: Page Not Found!</h1>
+    <p>The route you are looking for can not be found!</p>
+    <a href="/">Go back to the homepage</a>
+  </div>
+</div>
